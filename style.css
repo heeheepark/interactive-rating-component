@@ -70,9 +70,9 @@ body {
 }
 
 .feedback ul li:hover {
-  background-color: hsl(25, 97%, 53%);
-  color: #fff;
-  cursor: pointer;
+  background-color: hsl(25, 97%, 53%) !important;
+  color: #fff !important;
+  cursor: pointer !important;
 }
 
 .feedback button {
@@ -127,4 +127,9 @@ body {
   color: #8e94a8;
   line-height: 1.5;
   text-align: center;
+}
+
+.active {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff; 
 }
